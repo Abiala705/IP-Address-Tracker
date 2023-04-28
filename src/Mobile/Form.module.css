@@ -1,0 +1,27 @@
+.form {
+  background-image: url("../assets/pattern-bg-mobile.png");
+  width: 100vw;
+  background-repeat: no-repeat;
+  height: 40vh;
+}
+
+input:before,
+input:after {
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input {
+}
+
+@media (min-width: 375px) {
+  .form {
+    background-image: url("../assets/pattern-bg-desktop.png");
+    width: 100vw;
+    background-repeat: no-repeat;
+    height: 40vh;
+  }
+}
